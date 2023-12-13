@@ -24,11 +24,11 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Flappy Bird")
 
 # Load bird image
-bird_img = pygame.image.load("bird.png")
+bird_img = pygame.image.load("Sprite Cranberry Game - Lebron Icon.png")
 bird_img = pygame.transform.scale(bird_img, (BIRD_SIZE, BIRD_SIZE))
 
 # Load background image
-background_img = pygame.image.load("background.jpg")
+background_img = pygame.image.load("Sprite Cranberry Game - Background Image.jpg")
 background_img = pygame.transform.scale(background_img, (WIDTH, HEIGHT))
 
 # Load obstacle images
