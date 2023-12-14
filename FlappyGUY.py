@@ -21,7 +21,7 @@ BLACK = (0, 0, 0)
 
 # Create the game window
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("Flappy Bird")
+pygame.display.set_caption("Wanna Sprite Cranberry?")
 
 # Load bird image
 bird_img = pygame.image.load("Sprite Cranberry Game - Lebron Icon.png")
