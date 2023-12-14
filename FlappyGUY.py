@@ -7,7 +7,7 @@ import random
 pygame.init()
 
 pygame.mixer.init()
-pygame.mixer.music.load("F:\Game Framework Project\sound\Thirst - (Wanna Sprite Cranberry Trap Remix) [Prod. Ranch] (Free Use).mp3") 
+pygame.mixer.music.load("sound\Thirst - (Wanna Sprite Cranberry Trap Remix) [Prod. Ranch] (Free Use).mp3") 
 pygame.mixer.music.play(-1,0.0)
 
 # Constants
@@ -30,15 +30,15 @@ screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Wanna Sprite Cranberry?")
 
 # Load bird image
-bird_img = pygame.image.load("F:\Game Framework Project\images\Sprite Cranberry Game - Lebron Icon.png")
+bird_img = pygame.image.load("images\Sprite Cranberry Game - Lebron Icon.png")
 bird_img = pygame.transform.scale(bird_img, (BIRD_SIZE, BIRD_SIZE))
 
 # Load background image
-background_img = pygame.image.load("F:\Game Framework Project\images\Sprite Cranberry Game - Background Image.jpg ")
+background_img = pygame.image.load("images\Sprite Cranberry Game - Background Image.jpg ")
 background_img = pygame.transform.scale(background_img, (WIDTH, HEIGHT))
 
 # Load obstacle images
-obstacle_img = pygame.image.load("F:\Game Framework Project\images\Sprite Cranberry Game - Obstacle Image.png")
+obstacle_img = pygame.image.load("images\Sprite Cranberry Game - Obstacle Image.png")
 obstacle_img = pygame.transform.scale(obstacle_img, (OBSTACLE_WIDTH, OBSTACLE_HEIGHT))
 
 
@@ -54,7 +54,7 @@ score = 0
 
 # Menu variables
 menu_font = pygame.font.Font(None, 50)
-menu_text = menu_font.render("Press SPACE to Start", True, WHITE)
+menu_text = menu_font.render("Press SPACE to Start", True, BLACK)
 menu_text_rect = menu_text.get_rect(center=(WIDTH // 2, HEIGHT // 2))
 
 # Function to reset the game state
